@@ -1,3 +1,7 @@
+---
+id: core
+---
+
 This doc describes core `jotai` bundle.
 
 ## atom

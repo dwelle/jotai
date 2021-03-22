@@ -1,13 +1,25 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'jotai',
+        routeBasePath: '/',
+        path: 'docs/api',
+      },
+    ],
+  ],
   title: 'Jotai',
   tagline: '👻 Primitive, flexible state management for React',
   url: '/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  favicon:
+    'https://github.githubassets.com/images/icons/emoji/unicode/1f47b.png',
+  organizationName: 'pmndrs', // Usually your GitHub org/user name.
+
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {

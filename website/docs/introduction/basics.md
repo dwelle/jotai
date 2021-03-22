@@ -1,3 +1,7 @@
+---
+slug: /
+---
+
 This doc describes about jotai basic behavior.
 For async behavior, refer [./async.md](async.md).
 
